@@ -1,0 +1,7 @@
+{
+  "name": "furnitureApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

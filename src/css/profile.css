@@ -1,0 +1,116 @@
+.profileRight h2,
+h3 {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.profileRight h3 {
+}
+
+.profileRight {
+  width: 80%;
+  height: 100%;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileLeft {
+  width: 20%;
+  max-width: 5rem;
+}
+
+.profileCircle {
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f4f5f5;
+  background-color: #f4f5f5;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.profileContent {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  padding-left: 0.5rem;
+  background-color: #fafafb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.MyOrdersContainer {
+  margin-top: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  padding-left: 0.5rem;
+  background-color: #fafafb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.OrdersContainer {
+  border: none;
+  width: 100%;
+  --background: transparent;
+}
+
+
+ion-item.OrdersContainer {
+  --inner-border-width: 0px;
+}
+
+
+.OrdersContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.OrdersContent h2 {
+margin-top: -1rem;
+}
+
+.MyOrdersContainer h2 {
+  font-size: 1rem;
+  text-align: left;
+  margin: 0;
+}
+
+.MyOrdersContainer h3 {
+  font-size: 1rem;
+  text-align: left;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.OrdersContent p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  color: #bdbdbc;
+  font-weight: bold;
+}
+
+.ion-padding {
+  --background: #f4f5f5;
+}
+

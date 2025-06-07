@@ -1,0 +1,11 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+  /* Set the selected tab icon and label color to black */
+  --ion-color-primary: #000000;
+  --ion-tab-bar-color-selected: #313130;
+  --ion-tab-bar-color: #808081; /* Optional: default color for unfocused icons */
+}
+
+

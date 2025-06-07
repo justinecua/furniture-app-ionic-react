@@ -1,0 +1,35 @@
+# Node modules and package managers
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Vite build output
+/dist
+/.vite
+
+# Cypress
+/cypress/screenshots/
+/cypress/videos/
+/cypress/downloads/
+/coverage
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.*.env
+
+# Editor folders and settings
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Others
+/.pnp
+.pnp.js
+.eslintcache
+/.nx
+/.nx/cache

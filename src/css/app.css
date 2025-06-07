@@ -1,0 +1,6 @@
+
+ion-tab-bar {
+  --border: 0 !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}

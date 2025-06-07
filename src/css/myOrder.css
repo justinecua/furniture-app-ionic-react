@@ -1,0 +1,73 @@
+.order-card {
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  border: 1px solid #f1f1f1;
+  background-color: #ffffff;
+}
+
+.order-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.order-info p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.order-items {
+  padding-top: 0.5rem;
+}
+
+.order-items ion-item {
+  align-items: flex-start;
+  padding-left: 0;
+}
+
+.order-items .item-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.order-items ion-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order-items h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 2px;
+}
+
+.order-items p {
+  font-size: 13px;
+  color: #666;
+  margin: 1px 0;
+}
+
+.ion-padding {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 16px;
+  color: #888;
+}
+
+ion-toolbar {
+  --background: #f8f9fa;
+  --color: #111;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 1rem;
+}

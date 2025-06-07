@@ -1,0 +1,117 @@
+.login-content {
+  --background: #ffffff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.login-container > * {
+  width: 100%;
+}
+
+.login-container h1 {
+  text-align: left;
+  color: black;
+}
+
+.login-container h2 {
+  text-align: left;
+  margin-top: -0.1rem;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.forgotPassword-container {
+  text-align: left;
+  padding: 1rem;
+  text-align: center;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+ion-item.input-item {
+  --inner-padding-start: 0px;
+  --padding-start: 0px;
+}
+
+.login-button {
+  margin-top: 2rem;
+  color: #ffffff;
+  --background: #303030;
+  --background-activated: #303030; /* pressed/active state background */
+  --background-focused: #303030; /* focused state background */
+}
+
+.signUp-button {
+  color: black;
+  --background: #ffffff;
+  --background-activated: #ffffff;
+  --background-focused: #ffffff;
+}
+.LogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.AppLogo {
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.AppLogo img {
+  height: 30px;
+  width: auto;
+}
+
+.BorderLeft {
+  margin-right: 1rem;
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.BorderRight {
+  margin-left: 1rem;
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.backToLoginContainer {
+  padding: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.backToLoginContainer span {
+  font-size: 14px;
+}
+
+.highlight-text {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
